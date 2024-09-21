@@ -12,10 +12,6 @@ body{
     background-size: cover;
     background-position: center;
    
-   
-}
-.main{
-   
 }
 
 body::-webkit-scrollbar{
@@ -89,6 +85,7 @@ header nav form button:hover{
    body{
     height: 100vh;
    }
+   
 }
 
 
@@ -105,9 +102,6 @@ header nav form button:hover{
     background-image: url("https://images.pexels.com/photos/248413/pexels-photo-248413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
-}
-#myname{
-   
 }
 
 .creatdiv{
@@ -161,11 +155,11 @@ header nav form button:hover{
 }
 
 .recipes-detail{
-    height: 400px;
-    width: 400px;
+    height: 30vw;
+    width: 32vw;
     position: fixed;
-    top: 25vh;
-    left: 75vh;
+    top: 17vw;
+    left: 35vw;
     background-color: #825a57;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -175,19 +169,19 @@ header nav form button:hover{
     cursor: pointer;
 }
 .recipes-detail::-webkit-scrollbar{
-    width: 10px;
+    width: 0.6vw;
 }
 .recipes-detail::-webkit-scrollbar-thumb{
     background-color: rgb(107, 136, 146);
-    border-radius: 16px;
-    -webkit-border-radius: 15px;
+    border-radius: 3vw;
+    -webkit-border-radius: 0.5vw;
 }
 .close-btn {
     position: absolute;
-    right: 10px;
-    top: 15px;
-    height: 25px;
-    width: 25px;
+    right: 0.5vw;
+    top: 1vw;
+    height: 2vw;
+    width: 2vw;
     font-size: 20px;
     background-color: red;
     color: white;
@@ -195,6 +189,22 @@ header nav form button:hover{
     border-radius: 2px;
     cursor: pointer;
     
+}
+.one{
+    font-size: 2vw;
+    margin-left: -5vw;
+}
+
+.two{
+    font-size: 1.5vw;
+}
+.three{
+    font-size: 2vw;
+    margin-left: -5vw;
+}
+.four{
+    font-size: 1.2vw;
+    margin-left: -2vw;
 }
 .recipes-methode{
     display: flex;
