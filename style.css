@@ -65,28 +65,6 @@ header nav form button:hover{
 }
 
 
-@media  screen and (max-width:600px) {
-   header nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   }
-   header nav h1{
-    margin-block: 10px;
-    font-size: 3vw;
-   }
-   header nav form{
-    margin-left: 5rem;
-   }
-   header nav form input{
-    width: 15rem ;
-   }
-   body{
-    height: 100vh;
-   }
-   
-}
 
 
 .recipe-container{
@@ -228,3 +206,59 @@ header nav form button:hover{
 .cut{
     cursor: pointer;
 }
+
+
+@media  screen and (max-width:600px) {
+    header nav{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+    header nav h1{
+     margin-block: 10px;
+     font-size: 3vw;
+    }
+    header nav form{
+     margin-left: 5rem;
+    }
+    header nav form input{
+     width: 15rem ;
+    }
+    body{
+     height: 100vh;
+    }
+    
+ .recipes-detail{
+     height: 50vw;
+     width: 50vw;
+     position: fixed;
+     top: 50vw;
+     left: 26vw;
+     background-color: #825a57;
+     border-top-left-radius: 1rem;
+     border-bottom-left-radius: 1rem;
+     border-top-right-radius: 0.5rem;
+     border-bottom-right-radius: 0.5rem;
+     overflow-y: scroll;
+     cursor: pointer;
+ }
+
+ .one{
+    font-size: 3vw;
+    margin-left: -5vw;
+}
+
+.two{
+    font-size: 2vw;
+}
+.three{
+    font-size: 3vw;
+    margin-left: -5vw;
+}
+.four{
+    font-size: 1.7vw;
+    margin-left: -5vw;
+}
+ }
+ 
