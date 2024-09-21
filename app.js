@@ -41,11 +41,11 @@ let displayfun=(mealvalue)=>{
         btn.addEventListener("click",()=>{
            redetail.classList.remove("hide");
            remethode.innerHTML=`
-              <h2>Ingredient</h2>
+              <h2 class="one">Ingredient</h2>
               <ul class="unoder">${ingredient(meal)}</ul>
               <div class="instruction">
-              <h2>Instructions</h2>
-              <p>${meal.strInstructions}</p>
+              <h2 class="three">Instructions</h2>
+              <p class="four">${meal.strInstructions}</p>
               </div>
            `
 
@@ -63,7 +63,7 @@ let ingredient=(meal)=>{
        const ingredients = meal[`strIngredient${i}`];
        if(ingredients){
         const missure= meal[`strMeasure${i}`];
-        data += `<li>${ingredients} : ${missure}</li>`;
+        data += `<li class="two">${ingredients} : ${missure}</li>`;
        }else{
         break;
        }
